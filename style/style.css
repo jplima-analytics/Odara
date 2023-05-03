@@ -1,8 +1,4 @@
-@font-face{
-  font-family: OdaraFonte;
-  src: url("KabelLight.ttf");
-}
 
 body {
-  font-family: OdaraFonte;
+  font-family: 'kabel-light', sans-serif;
 }
