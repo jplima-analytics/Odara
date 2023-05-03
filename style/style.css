@@ -1,8 +1,8 @@
 @font-face {
-  font-family: OdaraFonte;
+  font-family: banana;
   src: url(font/KabelLight.ttf);
 }
 
 body {
-  font-family: OdaraFonte;
+  font-family: banana;
 }
