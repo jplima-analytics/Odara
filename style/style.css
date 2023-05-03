@@ -1,0 +1,8 @@
+@font-face {
+  font-family: OdaraFonte;
+  src: url(font/KabelLight.ttf);
+}
+
+body {
+  font-family: OdaraFonte;
+}
