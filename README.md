@@ -8,6 +8,7 @@ Sobre a Odara:
 A Odara English School é uma escola que ensina a língua inglesa com elementos descolonizadores, por meio da cultura afrocentrada. Ela possui o foco em criar um ambiente de acolhimento e troca entre os alunos e os professores, onde possam compartilhar as suas vivências e criar laços de luta e escuta.
 
 Intrgrantes:
+
 • Cauã
 
 • Gabriel Almeida Ferreira
