@@ -1,7 +1,25 @@
-/*body {
+    /*body {
     font-family: 'kabel-light', sans-serif;
 }*/
-
-.img-1 {
-    float: right;
-}
+    /* classe que centraliza os elementos*/
+    /* Aqui começam as configurações dos elementos do header*/
+    
+    .navegacao {
+        text-align: center;
+    }
+    
+    .navegacao ul li {
+        margin-right: 10px;
+        text-align: center;
+        display: inline;
+    }
+    
+    header {
+        margin: 0;
+        background-color: rgb(233, 233, 110);
+        border-radius: 20px;
+    }
+    
+    .img-1 {
+        float: right;
+    }
