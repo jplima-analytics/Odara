@@ -1,5 +1,7 @@
 body {
     font-family: 'kabel-light', sans-serif;
+    padding: 100px;
+    background-color: #ffdfea;
 }
 
 
@@ -7,20 +9,39 @@ body {
 
 header {
     background-image: linear-gradient(to right, rgb(255, 255, 113), pink);
-    height: 150px;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
 }
 
-#h1-principal {
+/*header que segue a pagina*/
+
+
+
+.logo{
+    float: left;
+    border-radius: 30%;
+}
+
+/* logo redonda*/
+
+.h1-principal {  
     text-align: center;
     font-family: serif;
     font-weight: bolder;
     font-size: 30px;
 }
 
+
 .navegacao {
     display: inline;
     text-align: center;
+    list-style: none;
+    height: 100%;
+    margin: 0;
 }
 
 .navegacao ul li {
@@ -33,10 +54,18 @@ header {
 
 .img-1 {
     float: right;
+    background-color: #fff2b5;
+    border: 1px solid #ccc;
 }
 
 
 /* configurações para deixar o texto legível*/
+
+figcaption{
+    font-style: italic;
+}
+
+/*descrição das imagens em italico*/
 
 p,
 ul,
@@ -46,10 +75,29 @@ h2 {
     margin: 10px;
 }
 
-
 /* Esta classe alinha as imagens da página Home com os textos*/
 
 .img-home {
     padding: 5px;
     margin: 10px;
+    
+}
+
+.fundadoraimg, .coordenadoraimg, .relacionamento-img {
+    background-color: #fff2b5;
+    border: 1px solid #ccc; 
+    float: left; 
+    clear: both; 
+}
+
+.fundadora{
+    clear: both; 
+}
+
+.colaboradores h2{
+    clear: both;
+}
+
+footer{
+    clear: both;
 }
