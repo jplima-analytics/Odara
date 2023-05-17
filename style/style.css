@@ -86,18 +86,29 @@ h2 {
 .fundadoraimg, .coordenadoraimg, .relacionamento-img {
     background-color: #fff2b5;
     border: 1px solid #ccc; 
-    float: left; 
+    float: right; 
     clear: both; 
 }
 
-.fundadora{
+.fundadora,footer{
     clear: both; 
 }
 
 .colaboradores h2{
     clear: both;
+    text-align: center;
+    background-color: #fff2b5 ;
+    font-style: italic;
+    font-size: 19px;
 }
 
-footer{
-    clear: both;
+h3{
+    font-size: 25px;  
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+ul{
+    font-size: 20px;
+    
 }
