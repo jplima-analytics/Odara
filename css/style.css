@@ -1,3 +1,8 @@
+:root {
+    --rosa: rgb(255, 192, 203);
+    --amarelo: rgb(255, 255, 213);
+}
+
 body {
     font-family: 'kabel-light', sans-serif;
     padding: 100px;
@@ -17,24 +22,23 @@ header {
     height: 90px;
 }
 
+
 /*header que segue a pagina*/
 
-
-
-.logo{
+.logo {
     float: left;
     border-radius: 30%;
 }
 
+
 /* logo redonda*/
 
-.h1-principal {  
+.h1-principal {
     text-align: center;
     font-family: serif;
     font-weight: bolder;
     font-size: 30px;
 }
-
 
 .navegacao {
     display: inline;
@@ -61,9 +65,10 @@ header {
 
 /* configurações para deixar o texto legível*/
 
-figcaption{
+figcaption {
     font-style: italic;
 }
+
 
 /*descrição das imagens em italico*/
 
@@ -75,40 +80,42 @@ h2 {
     margin: 10px;
 }
 
+
 /* Esta classe alinha as imagens da página Home com os textos*/
 
 .img-home {
     padding: 5px;
     margin: 10px;
-    
 }
 
-.fundadoraimg, .coordenadoraimg, .relacionamento-img {
+.fundadoraimg,
+.coordenadoraimg,
+.relacionamento-img {
     background-color: #fff2b5;
-    border: 1px solid #ccc; 
-    float: right; 
-    clear: both; 
+    border: 1px solid #ccc;
+    float: right;
+    clear: both;
 }
 
-.fundadora,footer{
-    clear: both; 
+.fundadora,
+footer {
+    clear: both;
 }
 
-.colaboradores h2{
+.colaboradores h2 {
     clear: both;
     text-align: center;
-    background-color: #fff2b5 ;
+    background-color: #fff2b5;
     font-style: italic;
     font-size: 19px;
 }
 
-h3{
-    font-size: 25px;  
+h3 {
+    font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-ul{
+ul {
     font-size: 20px;
-    
 }
