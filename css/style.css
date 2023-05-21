@@ -13,13 +13,12 @@ body {
 /* Aqui começam as configurações dos elementos do header*/
 
 header {
-    background-image: linear-gradient(to right, rgb(255, 255, 113), pink);
+    background-image: linear-gradient(to left, rgb(255, 255, 113), pink);
     margin-bottom: 20px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px;
+    height: 180px;
 }
 
 
