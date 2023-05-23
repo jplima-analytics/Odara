@@ -26,7 +26,7 @@ header {
 /*header que segue a pagina*/
 
 .logo {
-    float: left;
+    /*float: left;*/
     border-radius: 30%;
 }
 
@@ -34,6 +34,7 @@ header {
 /* logo redonda*/
 
 #logo-1 {
+    float: left;
     width: 100%;
 }
 
