@@ -1,5 +1,5 @@
-# Odara
-PI 1 SEMESTRE
+# Odara English School
+PI 1º SEMESTRE
 
 Sobre o Projeto Integrador:
 
