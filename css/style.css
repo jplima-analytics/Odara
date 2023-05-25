@@ -96,6 +96,7 @@ h2 {
 .img-home {
     padding: 5px;
     margin: 10px;
+    float: right;
 }
 
 .fundadoraimg,
