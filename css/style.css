@@ -96,6 +96,7 @@ h2 {
 .img-home {
     padding: 5px;
     margin: 10px;
+    float: right;
 }
 
 .fundadoraimg,
@@ -115,9 +116,8 @@ footer {
 .colaboradores h2 {
     clear: both;
     text-align: center;
-    background-color: #fff2b5;
-    font-style: italic;
     font-size: 19px;
+    margin: 15px;
 }
 
 h3 {
