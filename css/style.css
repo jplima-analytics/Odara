@@ -1,224 +1,249 @@
-    /*configuração de variáveis*/
-    
-     :root {
-        --rosa: rgb(255, 192, 203);
-        --amarelo: rgb(255, 255, 213);
-    }
-    
-    body {
-        font-family: 'kabel-light', sans-serif;
-        padding: 100px;
-        background-color: #ffffff;
-    }
-    
-    p {
-        margin-right: 10px;
-        font-family: 'kabel-light', sans-serif;
-    }
-    /* Aqui começam as configurações dos elementos do header*/
-    
-    header {
-        margin-bottom: 40px;
-    }
-    
-    nav {
-        background-image: linear-gradient(to left, rgb(255, 255, 113), pink);
-        margin-bottom: 40px;
-        /*top: 0;
+/*configuração de variáveis*/
+
+
+/*-----------------------------------------------------*/
+
+ :root {
+    --rosa: rgb(255, 192, 203);
+    --amarelo: rgb(255, 255, 213);
+}
+
+
+/*-----------------------------------------------------*/
+
+body {
+    font-family: 'kabel-light', sans-serif;
+    /*deixa os conteudos abaixo do menu*/
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+
+
+/* Aqui começam as configurações dos elementos do header*/
+
+header {
+    margin-bottom: 40px;
+}
+
+nav {
+    background-image: linear-gradient(to left, rgb(255, 255, 113), pink);
+    margin-bottom: 40px;
+    /*top: 0;
           left: 0;
           width: 100%;
           height: 120px;
           border-radius: 25px;
           */
-    }
-    
-    .logo {
-        /*float: left;*/
-        border-radius: 30%;
-    }
-    
-    #h1-principal {
-        font-family: serif;
-        font-weight: bolder;
-        font-size: 30px;
-        text-align: right;
-    }
-    /*Estilização dos Links*/
-    
-    .navegacao a {
-        color: black;
-        font-weight: bolder;
-        transition: 0.3s;
-    }
-    
-    .navegacao a:hover {
-        color: white;
-    }
-    /* Aqui acabam as configurações do header*/
-    
-    .img-1 {
-        float: right;
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-    }
-    
-    .img-float {
-        float: right;
-    }
-    /* configurações para deixar o texto legível*/
-    
-    figcaption {
-        font-style: italic;
-    }
-    /*descrição das imagens em italico*/
-    
-    p,
-    ul,
-    h2 {
-        letter-spacing: 0.3px;
-        /*margin: 10px;*/
-    }
-    /* Esta classe alinha as imagens da página Home com os textos*/
-    
-    .img-home {
+}
+
+#h1-principal {
+    font-family: 'kabel-light', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: right;
+}
+
+
+/*Estilização dos Links*/
+
+.navegacao a {
+    color: black;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.navegacao a:hover {
+    color: white;
+}
+
+
+/* Aqui acabam as configurações do header*/
+
+p {
+    margin-right: 10px;
+    font-family: 'kabel-light', sans-serif;
+}
+
+.img-1 {
+    float: right;
+    background-color: #fff2b5;
+    border: 1px solid #ccc;
+}
+
+.img-float {
+    float: right;
+}
+
+
+/* configurações para deixar o texto legível*/
+
+figcaption {
+    font-style: italic;
+}
+
+
+/*descrição das imagens em italico*/
+
+p,
+ul,
+h2 {
+    letter-spacing: 0.3px;
+    /*margin: 10px;*/
+}
+
+
+/* Esta classe alinha as imagens da página Home com os textos*/
+
+
+/* .img-home {
         padding: 5px;
         margin: 10px;
         float: right;
-    }
-    
-    .fundadoraimg,
-    .coordenadoraimg,
-    .relacionamento-img {
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-        float: right;
-        clear: both;
-    }
-    
-    .fundadora,
-    footer {
-        clear: both;
-    }
-    
-    .colaboradores h2 {
-        clear: both;
-        text-align: center;
-        font-size: 19px;
-        margin: 15px;
-    }
-    
-    h3 {
-        font-size: 25px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-    
-    ul {
-        font-size: 20px;
-        text-decoration: none;
-    }
-    
-    .logo {
-        /*float: left;*/
-        border-radius: 30%;
-    }
-    /* logo redonda*/
-    /*#logo-1 {
+    }*/
+
+.fundadoraimg,
+.coordenadoraimg,
+.relacionamento-img {
+    background-color: #fff2b5;
+    border: 1px solid #ccc;
+    float: right;
+    clear: both;
+}
+
+.fundadora,
+footer {
+    clear: both;
+}
+
+.colaboradores h2 {
+    clear: both;
+    text-align: center;
+    font-size: 19px;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* logo redonda*/
+
+
+/*#logo-1 {
     float: left;
     width: 100%;
 }*/
-    
-    #h1-principal {
-        font-family: serif;
-        font-weight: bolder;
-        font-size: 30px;
-        text-align: right;
-    }
-    /*Estilização dos Links*/
-    
-    .navegacao a {
-        color: black;
-        font-weight: bolder;
-        transition: 0.3s;
-    }
-    
-    .navegacao a:hover {
-        color: white;
-    }
-    /* Aqui acabam as configurações do header*/
-    
-    .img-1 {
-        float: right;
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-    }
-    /* configurações para deixar o texto legível*/
-    
-    figcaption {
-        font-style: italic;
-    }
+
+#h1-principal {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: right;
+}
+
+
+/*Estilização dos Links*/
+
+.navegacao a {
+    color: black;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.navegacao a:hover {
+    color: white;
+}
+
+
+/* Aqui acabam as configurações do header*/
+
+
+/* configurações de texto*/
+
+figcaption {
     /*descrição das imagens em italico*/
-    
-    p,
-    ul,
-    h2 {
-        padding: 5px;
-        letter-spacing: 0.3px;
-        margin: 10px;
-    }
-    /* Esta classe alinha as imagens da página Home com os textos*/
-    
-    .img-home {
-        padding: 5px;
-        margin: 10px;
-        float: right;
-    }
-    
-    .fundadoraimg,
-    .coordenadoraimg,
-    .relacionamento-img {
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-        float: right;
-        clear: both;
-    }
-    
-    .fundadora,
-    footer {
-        clear: both;
-    }
-    
-    .colaboradores h2 {
-        clear: both;
-        text-align: center;
-        font-size: 19px;
-        margin: 15px;
-    }
-    
-    h3 {
-        font-size: 25px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-    
-    ul {
-        font-size: 20px;
-    }
-    /* Carrossel */
-    
-    .img-depoimentos {
-        float: left;
-        margin-right: 6px;
-    }
-    
-    .card-depoimento h5 {
-        text-align: left;
-    }
-    
-    .card-depoimento p {
-        text-align: center;
-    }
-    
-    .dep {
-        margin-top: 8em;
-    }
+    font-style: italic;
+}
+
+
+/*configurações de texto*/
+
+p,
+ul,
+h2 {
+    padding: 5px;
+    letter-spacing: 0.3px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 20px;
+}
+
+
+/*configurações de imagem*/
+
+.img-home {
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    /*
+background-color: #fff2b5;
+border: 1px solid #ccc;*/
+}
+
+.fundadoraimg,
+.coordenadoraimg,
+.relacionamento-img {
+    background-color: #fff2b5;
+    border: 1px solid #ccc;
+    float: right;
+    clear: both;
+}
+
+.fundadora,
+footer {
+    clear: both;
+}
+
+
+/*.colaboradores h2 {
+    clear: both;
+    text-align: center;
+    font-size: 19px;
+    margin: 15px;
+}*/
+
+
+/* Carrossel */
+
+.img-depoimentos {
+    float: left;
+    margin-right: 6px;
+}
+
+.card-depoimento h5 {
+    text-align: left;
+}
+
+.card-depoimento p {
+    text-align: center;
+}
+
+.dep {
+    margin-top: 8em;
+}
