@@ -129,3 +129,20 @@ h3 {
 ul {
     font-size: 20px;
 }
+
+/* Carrossel */
+.img-depoimentos {
+    float: left;
+    margin-right: 6px;
+}
+
+.card-depoimento h5{
+    text-align: left;
+}
+
+.card-depoimento p{
+    text-align: center;
+}
+
+
+
