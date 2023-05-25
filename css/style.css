@@ -128,6 +128,101 @@
     width: 100%;
 }*/
     
+    HEAD #h1-principal {
+        font-family: serif;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: right;
+    }
+    /*Estilização dos Links*/
+    
+    .navegacao a {
+        color: black;
+        font-weight: bolder;
+        transition: 0.3s;
+    }
+    
+    .navegacao a:hover {
+        color: white;
+    }
+    /* Aqui acabam as configurações do header*/
+    
+    .img-1 {
+        float: right;
+        background-color: #fff2b5;
+        border: 1px solid #ccc;
+    }
+    /* configurações para deixar o texto legível*/
+    
+    figcaption {
+        font-style: italic;
+    }
+    /*descrição das imagens em italico*/
+    
+    p,
+    ul,
+    h2 {
+        padding: 5px;
+        letter-spacing: 0.3px;
+        margin: 10px;
+    }
+    /* Esta classe alinha as imagens da página Home com os textos*/
+    
+    .img-home {
+        padding: 5px;
+        margin: 10px;
+        float: right;
+    }
+    
+    .fundadoraimg,
+    .coordenadoraimg,
+    .relacionamento-img {
+        background-color: #fff2b5;
+        border: 1px solid #ccc;
+        float: right;
+        clear: both;
+    }
+    
+    .fundadora,
+    footer {
+        clear: both;
+    }
+    
+    .colaboradores h2 {
+        clear: both;
+        text-align: center;
+        font-size: 19px;
+        margin: 15px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    ul {
+        font-size: 20px;
+    }
+    /* Carrossel */
+    
+    .img-depoimentos {
+        float: left;
+        margin-right: 6px;
+    }
+    
+    .card-depoimento h5 {
+        text-align: left;
+    }
+    
+    .card-depoimento p {
+        text-align: center;
+    }
+    
+    .dep {
+        margin-top: 8em;
+    }
+    
     #h1-principal {
         font-family: serif;
         font-weight: bolder;
