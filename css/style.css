@@ -134,47 +134,12 @@ ul {
 }
 
 
-/* logo redonda*/
-
-
-/*#logo-1 {
-    float: left;
-    width: 100%;
-}*/
-
-#h1-principal {
-    font-family: serif;
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: right;
-}
-
-
-/*Estilização dos Links*/
-
-.navegacao a {
-    color: black;
-    font-weight: bolder;
-    transition: 0.3s;
-}
-
-.navegacao a:hover {
-    color: white;
-}
-
-
-/* Aqui acabam as configurações do header*/
-
-
 /* configurações de texto*/
 
 figcaption {
     /*descrição das imagens em italico*/
     font-style: italic;
 }
-
-
-/*configurações de texto*/
 
 p,
 ul,
@@ -246,4 +211,8 @@ footer {
 
 .dep {
     margin-top: 8em;
+}
+
+.planos {
+    display: inline;
 }
