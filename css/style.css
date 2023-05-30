@@ -163,6 +163,7 @@ ul {
 /*configurações de imagem*/
 
 .img-home {
+    height: 300px;
     padding: 5px;
     margin: 10px;
     float: right;
