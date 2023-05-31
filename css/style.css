@@ -59,47 +59,27 @@ nav {
 
 /* Aqui acabam as configurações do header*/
 
-p {
-    margin-right: 10px;
-    font-family: 'kabel-light', sans-serif;
-}
-
-.img-1 {
-    float: right;
-    background-color: #fff2b5;
-    border: 1px solid #ccc;
-}
-
-.img-float {
-    float: right;
-}
-
 
 /* configurações para deixar o texto legível*/
+
+p,
+ul,
+h2 {
+    padding: 5px;
+    letter-spacing: 0.3px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+/*descrição das imagens em italico*/
 
 figcaption {
     font-style: italic;
 }
 
 
-/*descrição das imagens em italico*/
-
-p,
-ul,
-h2 {
-    letter-spacing: 0.3px;
-    /*margin: 10px;*/
-}
-
-
-/* Esta classe alinha as imagens da página Home com os textos*/
-
-
-/* .img-home {
-        padding: 5px;
-        margin: 10px;
-        float: right;
-    }*/
+/*configurações de imagem*/
 
 .fundadoraimg,
 .coordenadoraimg,
@@ -114,53 +94,6 @@ h2 {
 footer {
     clear: both;
 }
-
-.colaboradores h2 {
-    clear: both;
-    text-align: center;
-    font-size: 19px;
-    margin: 15px;
-}
-
-h3 {
-    font-size: 25px;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-ul {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-
-/* configurações de texto*/
-
-figcaption {
-    /*descrição das imagens em italico*/
-    font-style: italic;
-}
-
-p,
-ul,
-h2 {
-    padding: 5px;
-    letter-spacing: 0.3px;
-    margin: 10px;
-}
-
-h3 {
-    font-size: 25px;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-ul {
-    font-size: 20px;
-}
-
-
-/*configurações de imagem*/
 
 .img-home {
     height: 300px;
@@ -172,123 +105,35 @@ background-color: #fff2b5;
 border: 1px solid #ccc;*/
 }
 
-.fundadoraimg,
-.coordenadoraimg,
-.relacionamento-img {
-    background-color: #fff2b5;
-    border: 1px solid #ccc;
+.img-float {
     float: right;
-    clear: both;
-}
-
-.fundadora,
-footer {
-    clear: both;
 }
 
 
-/*.colaboradores h2 {
+/* configurações de texto*/
+
+p {
+    margin-right: 10px;
+    font-family: 'kabel-light', sans-serif;
+}
+
+.colaboradores h2 {
     clear: both;
     text-align: center;
     font-size: 19px;
     margin: 15px;
-}*/
-    
-    #h1-principal {
-        font-family: serif;
-        font-weight: bolder;
-        font-size: 30px;
-        text-align: right;
-    }
-    /*Estilização dos Links*/
-    
-    .navegacao a {
-        color: black;
-        font-weight: bolder;
-        transition: 0.3s;
-    }
-    
-    .navegacao a:hover {
-        color: white;
-    }
-    /* Aqui acabam as configurações do header*/
-    
-    .img-1 {
-        float: right;
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-    }
-    /* configurações para deixar o texto legível*/
-    
-    figcaption {
-        font-style: italic;
-    }
-    /*descrição das imagens em italico*/
-    
-    p,
-    ul,
-    h2 {
-        padding: 5px;
-        letter-spacing: 0.3px;
-        margin: 10px;
-    }
-    /* Esta classe alinha as imagens da página Home com os textos*/
-    
-    .img-home {
-        padding: 5px;
-        margin: 10px;
-        float: right;
-    }
-    
-    .fundadoraimg,
-    .coordenadoraimg,
-    .relacionamento-img {
-        background-color: #fff2b5;
-        border: 1px solid #ccc;
-        float: right;
-        clear: both;
-    }
-    
-    .fundadora,
-    footer {
-        clear: both;
-    }
-    
-    .colaboradores h2 {
-        clear: both;
-        text-align: center;
-        font-size: 19px;
-        margin: 15px;
-    }
-    
-    h3 {
-        font-size: 25px;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-    
-    ul {
-        font-size: 20px;
-    }
-    /* Carrossel */
-    
-    .img-depoimentos {
-        float: left;
-        margin-right: 6px;
-    }
-    
-    .card-depoimento h5 {
-        text-align: left;
-    }
-    
-    .card-depoimento p {
-        text-align: center;
-    }
-    
-    .dep {
-        margin-top: 8em;
-    }
+}
 
+ul {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
 
 /* Carrossel */
@@ -306,10 +151,10 @@ footer {
     text-align: center;
 }
 
-.dep {
-    margin-top: 8em;
+.depoimentos-carrossel {
+    text-align: center;
 }
 
-.planos {
-    display: inline;
+.dep {
+    margin-top: 8em;
 }
