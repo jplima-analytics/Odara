@@ -1,12 +1,12 @@
 const questions = [
   {
-      question: "Qual e o maior animal do mundo?",
+      question: "001",
       answers:
       [
-          { text: "Baleia Azul" , correct: true},
-          { text: "Elefante" , correct: false},
-          { text: "Tubarao" , correct: false},
-          { text: "Giraffa" , correct: false},
+          { text: "A" , correct: true},
+          { text: "B" , correct: false},
+          { text: "C" , correct: false},
+          { text: "D" , correct: false},
       ]
   },
   {
@@ -46,7 +46,7 @@ const questions = [
           { text: "Elefante" , correct: false},
           { text: "Tubarao" , correct: false},
           { text: "Baleia Azul" , correct: true},
-          { text: "Giraffa" , correct: true},
+          { text: "Giraffa" , correct: false},
       ]
   },
   {
