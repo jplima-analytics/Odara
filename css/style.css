@@ -60,18 +60,6 @@ nav {
 /* Aqui acabam as configurações do header*/
 
 
-/* configurações para deixar o texto legível*/
-
-p,
-ul,
-h2 {
-    padding: 5px;
-    letter-spacing: 0.3px;
-    margin: 10px;
-    line-height: 30px;
-}
-
-
 /*descrição das imagens em italico*/
 
 figcaption {
@@ -95,18 +83,13 @@ footer {
     clear: both;
 }
 
-.img-home {
-    height: 300px;
-    padding: 5px;
+.img-1-home {
+    padding: 25px;
     margin: 10px;
     float: right;
     /*
 background-color: #fff2b5;
 border: 1px solid #ccc;*/
-}
-
-.img-float {
-    float: right;
 }
 
 
@@ -126,13 +109,33 @@ p {
 
 ul {
     font-size: 20px;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 h3 {
     font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+
+/* configurações para deixar o texto legível*/
+
+p,
+ul,
+h2,
+h4 {
+    letter-spacing: 0.3px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.sobre {
+    background-color: pink;
+}
+
+.destaque-home {
+    text-align: center;
 }
 
 
