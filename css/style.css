@@ -167,8 +167,17 @@ h4 {
 
 .depo-cartao {
     width: 20rem;
+    height: 15rem;
 }
 
+.card-depoimento-jes p {
+    margin-top: 1.2rem;
+
+}
+
+/*fim*/
+
+/*Planos*/
 .cartao {
     margin-bottom: 3rem;
 }
@@ -178,25 +187,61 @@ h4 {
     margin-top: 3rem;
 }
 
+.img-depoimentos{
+    height: 2rem;
+}
+
+.card-depoimento h5 {
+    margin-top: 0.3rem;
+}
+
+/*Fim*/
+
 @media (min-width: 769px) {
+
+    /* Carrossel */
+    .img-depoimentos{
+        height: 10rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+    .card-depoimento h5 {
+        margin-top: 1rem;
+    }
+    
+
     .depo-car {
-        margin: 5em 0em;
+        margin: 2em 0em;
     }
     
     .depo-cartao {
-        width: 36rem;
-        height: 15rem;
+        width: 38rem;
+        height: 17rem;
     }
 
     .depo-cartao h5 {
-        margin-bottom: 2rem;
+        margin-bottom: 0.3rem;
     }
 
     .depo-cartao p {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    .card-depoimento-jes p {
+        margin-top: 1rem;
+        margin-bottom: 1.2rem;
     }
 
+    /* Fim */
+    
+    /*Planos*/
     .cartao-planos {
         display: flex;
+        justify-content: center;
     }
+
+    .cartao {
+        margin: 0rem 2rem;
+    }
+
 }
