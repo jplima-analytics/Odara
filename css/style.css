@@ -194,8 +194,31 @@ h4 {
 .card-depoimento h5 {
     margin-top: 0.3rem;
 }
-
 /*Fim*/
+
+.colaboradores{
+    display: flex;
+    justify-content: center;
+}
+
+.cola {
+    margin: 8px;
+}
+
+.img-cola {
+    height: 7rem;
+}
+
+.cola h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cola p {
+    font-size: 12px;
+}
+
 
 @media (min-width: 769px) {
 
@@ -243,5 +266,7 @@ h4 {
     .cartao {
         margin: 0rem 2rem;
     }
+    /*Fim*/
 
+    
 }
