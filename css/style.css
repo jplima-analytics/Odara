@@ -169,6 +169,15 @@ h4 {
     width: 20rem;
 }
 
+.cartao {
+    margin-bottom: 3rem;
+}
+
+
+.planos {
+    margin-top: 3rem;
+}
+
 @media (min-width: 769px) {
     .depo-car {
         margin: 5em 0em;
@@ -185,5 +194,9 @@ h4 {
 
     .depo-cartao p {
         margin-bottom: 2rem;
+    }
+
+    .cartao-planos {
+        display: flex;
     }
 }
