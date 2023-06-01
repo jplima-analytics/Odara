@@ -156,3 +156,34 @@ h4 {
 .depoimentos-carrossel {
     text-align: center;
 }
+
+.depo-car{
+    margin-top: 5rem;
+}
+
+.depo-car h3 {
+    text-align: center;
+}
+
+.depo-cartao {
+    width: 20rem;
+}
+
+@media (min-width: 769px) {
+    .depo-car {
+        margin: 5em 0em;
+    }
+    
+    .depo-cartao {
+        width: 36rem;
+        height: 15rem;
+    }
+
+    .depo-cartao h5 {
+        margin-bottom: 2rem;
+    }
+
+    .depo-cartao p {
+        margin-bottom: 2rem;
+    }
+}
