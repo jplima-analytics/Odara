@@ -1,64 +1,64 @@
 const questions = [{
-        question: "001",
+        question: "Qual o mês de aniversário da cantora Beyoncé?",
         answers: [
-            { text: "A", correct: true },
-            { text: "B", correct: false },
-            { text: "C", correct: false },
-            { text: "D", correct: false },
+            { text: "December", correct: false },
+            { text: "May", correct: false },
+            { text: "February", correct: false },
+            { text: "September", correct: true },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Qual o nome da autora do livro The Spirit of Intimacy ‘O Espírito da Intimidade’??",
         answers: [
-            { text: "Elefante", correct: false },
-            { text: "Tubarao", correct: false },
-            { text: "Baleia Azul", correct: true },
-            { text: "Giraffa", correct: false },
+            { text: "Sobonfu Somé", correct: true },
+            { text: "Matilda Storm", correct: false },
+            { text: "Dyana Forbs", correct: false },
+            { text: "Mayla Dill", correct: false },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Qual era o nome de Muhammad Ali, antes da conversão ao islã?",
         answers: [
-            { text: "Elefante", correct: false },
-            { text: "Tubarao", correct: false },
-            { text: "Baleia Azul", correct: true },
-            { text: "Giraffa", correct: false },
+            { text: "Mike Tyson", correct: false },
+            { text: "Klover Brown", correct: false },
+            { text: "Cassius Marcellus Clay Jr", correct: true },
+            { text: "Peter Jhones", correct: false },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Onde nasceu a cantora Nina Simone?",
         answers: [
-            { text: "Elefante", correct: false },
-            { text: "Tubarao", correct: false },
-            { text: "Baleia Azul", correct: false },
-            { text: "Giraffa", correct: true },
+            { text: "Carolina do Norte ", correct: true },
+            { text: "Mississipi", correct: false },
+            { text: "Frankfurt", correct: false },
+            { text: "Texas", correct: false },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Qual o nome do pastor e ativista político autor do discurso I Have a Dream ‘ Eu tenho um sonho’?",
         answers: [
-            { text: "Elefante", correct: false },
-            { text: "Tubarao", correct: false },
-            { text: "Baleia Azul", correct: true },
-            { text: "Giraffa", correct: false },
+            { text: "James Smith ", correct: false },
+            { text: "Petter Davis", correct: false },
+            { text: "Martin Luther King Jr", correct: true },
+            { text: "Andrew Blake", correct: false },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Qual o mês de aniversário de Malcom X?",
         answers: [
-            { text: "Elefante", correct: true },
-            { text: "Tubarao", correct: false },
-            { text: "Baleia Azul", correct: false },
-            { text: "Giraffa", correct: false },
+            { text: "December", correct: false },
+            { text: "May", correct: true },
+            { text: "April", correct: false },
+            { text: "September", correct: false },
         ]
     },
     {
-        question: "Qual e o maior animal do mundo?",
+        question: "Qual a cantora ganhadora do Grammy Latino: Melhor Álbum de Música Brasileira em 2022?",
         answers: [
-            { text: "Elefante", correct: false },
-            { text: "Tubarao", correct: true },
-            { text: "Baleia Azul", correct: false },
-            { text: "Giraffa", correct: false },
+            { text: "Liniker", correct: true },
+            { text: "Luedji Luna", correct: false },
+            { text: "Tássia Reis", correct: false },
+            { text: "Maria", correct: false },
         ]
     }
 
