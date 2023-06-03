@@ -98,10 +98,7 @@ footer {
 }
 
 .img-1-home {
-    padding: 25px;
-    margin: 10px;
     float: right;
-    height: 250px;
     /*
 background-color: #fff2b5;
 border: 1px solid #ccc;*/
@@ -294,6 +291,16 @@ figcaption {
         margin: 0rem 2rem;
     }
     /*Fim*/
+}
+
+@media(max-width:991px) {
+    .referencias ul {
+        float: left;
+    }
+    .img-1-home {
+        clear: left;
+        text-align: center;
+    }
 }
 
 
