@@ -13,6 +13,7 @@
     src: url(/font/ITCKabelStd-Book.ttf);
 }
 
+
 /*-----------------------------------------------------*/
 
 body {
@@ -41,7 +42,6 @@ nav {
 }
 
 .h1-principal {
-
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
@@ -100,12 +100,11 @@ background-color: #fff2b5;
 border: 1px solid #ccc;*/
 }
 
-
-/*.img-desenvolvedores {
+.img-desenvolvedores {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-}*/
+}
 
 
 /* configurações de texto*/
@@ -283,6 +282,7 @@ figcaption {
     font-size: 12px;
 }
 
+
 /*desenvolvedores*/
 
 .links {
@@ -327,11 +327,9 @@ figcaption {
         margin: 0rem 2rem;
     }
     /*Fim*/
-
     .gifdepo {
         float: right;
     }
-
     .textodepo {
         float: left;
     }
