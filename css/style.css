@@ -26,7 +26,7 @@ header {
 }
 
 nav {
-    background-image: linear-gradient(to left, rgb(255, 255, 113), pink);
+    background-image: linear-gradient(to left, rgb(255, 255, 124), pink);
     margin-bottom: 40px;
     /*top: 0;
           left: 0;
@@ -41,10 +41,18 @@ nav {
     font-weight: bolder;
     font-size: 30px;
     text-align: right;
+    display: inline;
+    position: absolute;
+    top: 19px;
+    text-align: center;
 }
 
 
 /*Estilização dos Links*/
+
+.navegacao {
+    text-align: center;
+}
 
 .navegacao a {
     color: black;
@@ -53,6 +61,12 @@ nav {
 }
 
 .navegacao a:hover {
+    transition: 0.3s;
+    border-radius: 25px;
+    background-image: linear-gradient(to left, rgb(255, 255, 124), pink);
+}
+
+.navegacao a:active {
     color: white;
 }
 
@@ -98,7 +112,7 @@ border: 1px solid #ccc;*/
 
 p {
     margin-right: 10px;
-    font-family: 'kabel-light', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .colaboradores h2 {
