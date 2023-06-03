@@ -214,11 +214,16 @@ h4 {
     margin: 8px;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .img-cola {
     height: 7rem;
 }
 
 .cola h5 {
+    text-align: center;
     font-size: 15px;
     font-weight: bold;
     margin-top: 1rem;
