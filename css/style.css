@@ -8,11 +8,15 @@
     --amarelo: rgb(255, 255, 213);
 }
 
+@font-face {
+    font-family: "odara";
+    src: url(/font/ITCKabelStd-Book.ttf);
+}
 
 /*-----------------------------------------------------*/
 
 body {
-    font-family: 'kabel-light', sans-serif;
+    font-family: 'odara';
     /*deixa os conteudos abaixo do menu*/
     padding-top: 100px;
     background-color: #ffffff;
@@ -37,7 +41,7 @@ nav {
 }
 
 .h1-principal {
-    font-family: 'kabel-light', serif;
+
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
@@ -108,7 +112,6 @@ border: 1px solid #ccc;*/
 
 p {
     margin-right: 10px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .colaboradores h2 {
@@ -317,6 +320,14 @@ figcaption {
         margin: 0rem 2rem;
     }
     /*Fim*/
+
+    .gifdepo {
+        float: right;
+    }
+
+    .textodepo {
+        float: left;
+    }
 }
 
 @media(max-width:991px) {
@@ -339,7 +350,6 @@ footer {
 
 footer h2 {
     text-align: center;
-    font-family: serif;
     font-weight: bolder;
 }
 
