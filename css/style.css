@@ -63,11 +63,7 @@ nav {
 .navegacao a:hover {
     transition: 0.3s;
     border-radius: 25px;
-    background-image: linear-gradient(to left, rgb(255, 255, 124), pink);
-}
-
-.navegacao a:active {
-    color: white;
+    color: white
 }
 
 
@@ -139,6 +135,25 @@ h3 {
     font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.h1-quiz {
+    text-align: center;
+}
+
+.desenvolvedores a {
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.links a {
+    margin-bottom: 15px;
+}
+
+.links img:hover {
+    transition: box-shadow 0.7s;
+    transform: scale(1.3) rotate(-2.5deg);
 }
 
 
@@ -327,6 +342,7 @@ figcaption {
 
 footer {
     background-color: rgb(255, 189, 225);
+    padding-bottom: 3px;
 }
 
 footer h2 {
@@ -339,6 +355,10 @@ footer h2 {
     margin-bottom: 30px;
 }
 
+.botoes-contato a {
+    margin-right: 10px;
+}
+
 .botoes-img:hover {
     transition: box-shadow 0.7s;
     transform: scale(1.3) rotate(-2.5deg);
@@ -346,6 +366,11 @@ footer h2 {
 
 footer ul {
     margin-top: 15px;
+}
+
+#faq {
+    position: relative;
+    right: 35px;
 }
 
 footer ul li a {
@@ -356,6 +381,7 @@ footer ul li a {
 footer ul li a:hover {
     transition: 0.4s;
     color: white;
+    opacity: 0.3s;
 }
 
 .central {
