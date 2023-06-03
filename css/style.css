@@ -186,6 +186,8 @@ h4 {
 
 /*Planos*/
 
+
+
 .cartao {
     margin-bottom: 3rem;
 }
@@ -272,6 +274,7 @@ figcaption {
         display: flex;
         justify-content: center;
     }
+
     .cartao {
         margin: 0rem 2rem;
     }
