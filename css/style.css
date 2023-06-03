@@ -59,11 +59,7 @@ nav {
 .navegacao a:hover {
     transition: 0.3s;
     border-radius: 25px;
-    background-image: linear-gradient(to left, rgb(255, 255, 124), pink);
-}
-
-.navegacao a:active {
-    color: white;
+    color: white
 }
 
 
@@ -136,6 +132,10 @@ h3 {
     font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.h1-quiz {
+    text-align: center;
 }
 
 
@@ -346,6 +346,7 @@ footer ul li a {
 footer ul li a:hover {
     transition: 0.4s;
     color: white;
+    opacity: 0.3s;
 }
 
 .central {
