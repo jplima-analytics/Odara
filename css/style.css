@@ -224,6 +224,12 @@ figcaption {
     height: 7rem;
 }
 
+.img-cola:hover {
+    box-shadow: 0 0 5px #333;
+    transition: box-shadow 0.7s;
+    transform: scale(1.2) rotate(-2.5deg);
+}
+
 .cola h5 {
     text-align: center;
     font-size: 15px;
