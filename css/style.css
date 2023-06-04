@@ -20,7 +20,8 @@ body {
     font-family: 'odara';
     /*deixa os conteudos abaixo do menu*/
     padding-top: 100px;
-    background-color: #ffffff;
+    background-image: url('fundo-bg3.png');
+    background-repeat: no-repeat;
 }
 
 
@@ -92,7 +93,6 @@ footer {
 }
 
 .img-float-right {
-    float: right;
     border-radius: 30%;
 }
 
@@ -127,6 +127,12 @@ p {
 ul {
     font-size: 20px;
     list-style-type: none;
+}
+
+#h2-sobre {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
 h3 {
