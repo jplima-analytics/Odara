@@ -21,7 +21,7 @@ body {
     /*deixa os conteudos abaixo do menu*/
     padding-top: 100px;
     background-image: url('fundo-bg3.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 
