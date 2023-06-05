@@ -3,7 +3,7 @@ PI 1º SEMESTRE
 
 Sobre o Projeto Integrador:
 
-O Projeto Integrador é um projeto propostosto pela Fatec Zona Leste para os alunos do curso de desenvolvimento de software multiplataforma. Em tal projeto os alunos foram encorajados a entrar em contato com pequenas empresas e projetos na região da Zona Leste de São Paulo para desenvolver um website para tal instituição.
+O Projeto Integrador é um projeto proposto pela Fatec Zona Leste para os alunos do curso de desenvolvimento de software multiplataforma. Em tal projeto os alunos foram encorajados a entrar em contato com pequenas empresas e projetos na região da Zona Leste de São Paulo para desenvolver um website para tal instituição.
 
 Sobre a Odara:
 
@@ -11,12 +11,10 @@ A Odara English School é uma escola que ensina a língua inglesa com elementos 
 
 Intrgrantes:
 
-• Cauã
-
 • Gabriel Almeida Ferreira
 
-• João
+• João Pedro de Lima e Silva
 
-• Johnny
+• Johnny Santos do Nascimento 
 
-• Nelson Firmino
+• Nelson Firmino Santos Silva
