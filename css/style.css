@@ -349,6 +349,18 @@ figcaption {
         float: right;
         border-radius: 30%;
     }
+
+    /*Página Depoimentos*/
+    .imgali {
+        float: left;
+        margin-left: 10px;
+    }
+    .txtali {
+        margin-top: 4rem;
+    }
+    .txtdepoimentoleini { 
+        margin-top: 2rem;
+    }
 }
 
 @media(max-width:991px) {
