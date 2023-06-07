@@ -108,7 +108,7 @@ footer {
     border-radius: 30%;
 }
 
-.img-referencias {
+.img-home {
     border-radius: 30%;
 }
 
@@ -301,7 +301,6 @@ figcaption {
     font-size: 12px;
 }
 
-
 /*desenvolvedores*/
 
 .links {
@@ -368,6 +367,8 @@ figcaption {
         text-align: center;
     }
 }
+
+
 
 
 /* configurações de footer*/
