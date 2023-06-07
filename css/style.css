@@ -175,6 +175,13 @@ h3 {
     margin-top: 50px;
 }
 
+.card-odara {
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+}
+
 
 /* configurações para deixar o texto legível*/
 
