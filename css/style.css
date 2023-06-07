@@ -108,7 +108,7 @@ footer {
     border-radius: 30%;
 }
 
-.img-home {
+.img-borda {
     border-radius: 30%;
 }
 
@@ -346,7 +346,7 @@ figcaption {
     }
     /*Fim*/
     .gifdepo {
-        float: right;
+        
     }
     .textodepo {
         float: left;
